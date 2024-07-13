@@ -21,6 +21,7 @@ public class StepDefinition {
 		 driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		 driver.manage().window().maximize();
 		 driver.getCurrentUrl();
+		 driver.getTitle();
 		 driver.close();
 		
 	   
